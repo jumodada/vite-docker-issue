@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  vitepress:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/usr/src/app
+    command: yarn run dev

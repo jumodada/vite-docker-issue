@@ -7,5 +7,6 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./:/usr/src/app
+      - ./:/app
+        - /app/node_modules
     command: yarn run dev

@@ -3,9 +3,8 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  
 
-  <HelloWorld msg="Vite + Vue" />
+1231
 </template>
 
 <style scoped>
